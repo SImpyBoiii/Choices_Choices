@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Cats or Dogs</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>What do you like more?</h1>
+
+  <div class="choice-container">
+    <span class="choice-label" id="catLabel">Cats</span>
+    <button class="choice-button cat"
+      onclick="body.style.backgroundImage='url(https://img.freepik.com/premium-vector/black-cats-various-poses-isolated-background-cats-sitting-standing-resting-playing_685565-50.jpg?w=360)';
+               result.innerHTML='<img src=https://images.squarespace-cdn.com/content/v1/562fcb20e4b086a77e8a1c2f/1592688649616-OQ2BUMZ8YUE9XNMRZRK8/BEST-BOBA-TEA-BUBBLE-TEA-MILK-TEA-TAPIOCA-IN-FLUSHING-NEW-YORK-CITY-QUEENS-CHUN-YANG-3.jpg>';
+               catLabel.style.color='white'; dogLabel.style.color='white';">
+    </button>
+  </div>
+
+  <div class="choice-container">
+    <span class="choice-label" id="dogLabel">Dogs</span>
+    <button class="choice-button dog"
+      onclick="body.style.backgroundImage='url(https://i.pinimg.com/474x/bd/e7/e4/bde7e4e17841461188bd91cf295ed5d8.jpg)';
+               result.innerHTML='<img src=https://i.pinimg.com/736x/ce/fe/a4/cefea41eb8be60e57138f95ea2a4b6e0.jpg>';
+               catLabel.style.color='black'; dogLabel.style.color='black';">
+    </button>
+  </div>
+
+  <div id="result"></div>
+</body>
+</html>

@@ -1,0 +1,49 @@
+body {
+  background-image: url("https://t3.ftcdn.net/jpg/01/41/59/80/360_F_141598098_NMfCiL46GhNuTDXdDj8Cx2gsehhPCoKP.jpg");
+  background-size: cover;
+  text-align: center;
+  color: white;
+  font-family: Arial, sans-serif;
+  transition: background-image 0.5s;
+}
+
+h1 {
+  margin-top: 50px;
+}
+
+.choice-container {
+  display: inline-block;
+  margin: 30px;
+}
+
+.choice-label {
+  font-weight: bold;
+  font-size: 50px;
+  margin-bottom: 10px;
+  display: block;
+  text-align: center;
+}
+
+.choice-button {
+  width: 250px;
+  height: 250px;
+  cursor: pointer;
+  background-size: cover;
+  background-position: center;
+  border: none;
+  border-radius: 15px;
+}
+
+.choice-button.cat {
+  background-image: url("https://th.bing.com/th/id/R.b9d760cd49e6708246787a41de6587e9?rik=V61IXxGEBuZaqw&riu=http%3a%2f%2fimages2.wikia.nocookie.net%2f__cb20130812053539%2fhouseofnight%2fimages%2f8%2f8b%2fCats.jpg&ehk=b1FsWa2NdIyNgmj84FAQwDtwoekUGpqH0rYIpCmJpDY%3d&risl=&pid=ImgRaw&r=0");
+}
+
+.choice-button.dog {
+  background-image: url("https://tse2.mm.bing.net/th/id/OIP.0_4SmHo9IqUW2m7ppN7D3wHaEo?cb=thfc1&rs=1&pid=ImgDetMain&o=7&rm=3");
+}
+
+#result img {
+  margin-top: 20px;
+  width: 500px;
+  border-radius: 10px;
+}
